@@ -22,8 +22,8 @@ export default function About() {
           ></div>
         </div>
 
-        <div className="row">
-          <div className="col-md-6 text-start">
+        <div className="row justify-content-center">
+          <div className="col-md-5 text-start">
             <div className=''>
             <p>
               Freelancer is a free bootstrap theme created by Route. The
@@ -34,7 +34,7 @@ export default function About() {
             </div>
 
           </div>
-          <div className="col-md-6 text-start">
+          <div className="col-md-5 text-start">
             <div className=''>
             <p>
               Freelancer is a free bootstrap theme created by Route. The
