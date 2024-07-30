@@ -16,7 +16,7 @@ export default function Navbar() {
 
 <nav className="navbar navbar-expand-lg px-4 py-4 sec-bg fixed-top">
   <div className="container">
-    <Link className="navbar-brand fw-bold fs-3 text-white" to="startFramework">START FRAMEWORK</Link>
+    <Link className="navbar-brand fw-bold fs-3 text-white" to="/startFramework">START FRAMEWORK</Link>
     <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="toggler-icon top-bar text-white"></span>
         <span className="toggler-icon middle-bar text-white"></span>
@@ -25,13 +25,13 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-auto gap-3 text-center mt-3">
         <li className="nav-item">
-          <NavLink className="nav-link fw-bold text-white " aria-current="page" to="startFramework/about">ABOUT</NavLink>
+          <NavLink className="nav-link fw-bold text-white " aria-current="page" to="/startFramework/about">ABOUT</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link fw-bold text-white" to="startFramework/portfolio">PORTFOLIO</NavLink>
+          <NavLink className="nav-link fw-bold text-white" to="/startFramework/portfolio">PORTFOLIO</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link fw-bold text-white" to="startFramework/contact">CONTACT</NavLink>
+          <NavLink className="nav-link fw-bold text-white" to="/startFramework/contact">CONTACT</NavLink>
         </li>
       </ul>
     </div>
