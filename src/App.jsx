@@ -18,7 +18,7 @@ let router = createBrowserRouter([
       { path:'/startFramework/about' , element: <About/>},
       { path:'/startFramework/portfolio' , element: <Portfolio/>},
       { path:'/startFramework/contact' , element: <Contact/>},
-      { path : '*', element: <Notfound/>}
+      { path : '/startFramework/*', element: <Notfound/>}
 
     ]
   }
